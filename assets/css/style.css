@@ -1,0 +1,30 @@
+body{
+    background: url(https://wallpapercave.com/wp/T5uctnY.jpg);
+}
+
+h5{
+    color: blanchedalmond;
+}
+
+.earth{
+    width: 40%;
+    height: 60%;
+}
+
+.venus{
+    width: 50%;
+}
+
+.names{
+    display: flex;
+    display: space-around;
+}
+
+.mercury{
+    width: 40%;
+}
+
+.saturn{
+    width: 43%;
+    height: 70%;
+}
