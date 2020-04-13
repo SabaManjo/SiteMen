@@ -1,5 +1,6 @@
 let mainDiv = document.getElementById('planets-div')
 let planet = document.getElementsByClassName('planet-name');
+let Home = document.getElementsByClassName('home-link')
 let request = new XMLHttpRequest();
 request.open('GET', 'https://api.le-systeme-solaire.net/rest/bodies/', true);
 request.onload = function() {
@@ -44,6 +45,12 @@ request.onload = function() {
 
    
 };
+
+console.log();
+
+if(this.location.pathname == "/index.html"){
+    Home[0].classList.toggle("active")
+}
 
  request.send();
 

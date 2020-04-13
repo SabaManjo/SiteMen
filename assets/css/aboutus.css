@@ -1,0 +1,55 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Space Mono', monospace;
+}
+.logo{
+    margin-left: 15%;
+    width: 20px;
+    height: 20px;
+}
+
+.logo__navimg{
+    width: 150px;
+    transition: 0.3s;
+}
+.logo__navimg:hover{
+    width: 160px;
+    transition: 0.3s;
+}
+
+ul{
+    margin-top: 40px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 444px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.active{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.555);
+}
+
+a,li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    font-size: 17px;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+    transition: 0.3s;
+}

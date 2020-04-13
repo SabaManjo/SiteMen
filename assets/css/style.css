@@ -1,13 +1,14 @@
 body{
     background: url(https://wallpapercave.com/wp/T5uctnY.jpg);
+    margin: 0;
+    padding: 0;
 }
 
-h5{
-    color: blanchedalmond;
+a{
+    font-family: 'Space Mono', monospace;
 }
-
 .earth{
-    width: 40%;
+    width: 50%;
     height: 60%;
 }
 
@@ -15,16 +16,67 @@ h5{
     width: 50%;
 }
 
-.names{
-    display: flex;
-    display: space-around;
-}
-
 .mercury{
+    width: 40%;
+}
+.mercury:hover{
+    cursor: pointer;
+    border: 2px solid yellow;
     width: 40%;
 }
 
 .saturn{
-    width: 43%;
+    width: 52%;
     height: 70%;
 }
+
+.logo{
+    margin-left: 15%;
+    width: 20px;
+    height: 20px;
+}
+
+.logo__navimg{
+    width: 150px;
+    transition: 0.3s;
+}
+.logo__navimg:hover{
+    width: 160px;
+    transition: 0.3s;
+}
+
+ul{
+    margin-top: 40px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.active{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.555);
+}
+
+a,li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    font-size: 17px;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.planet-div{
+    margin-top: 20%;
+}
+
